@@ -1,0 +1,104 @@
+[13:54:43] [Client thread/INFO]: Setting user: Player748
+[13:54:53] [Client thread/INFO]: LWJGL Version: 2.9.2
+[13:55:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:zachTutMod
+[13:55:03] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: wilzacharsonMod/ in /Users/EricWilson/Documents/MineCraft Mod Data/Forge 9.4/forge-1.9.4-12.17.0.1976-mdk/bin
+[13:55:08] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:55:09] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[13:55:09] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:55:09] [Thread-5/INFO]: OpenAL initialized.
+[13:55:09] [Sound Library Loader/INFO]: Sound engine started
+[13:55:15] [Client thread/INFO]: Created: 16x16 textures-atlas
+[13:55:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:zachTutMod
+[13:55:21] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: wilzacharsonMod/ in /Users/EricWilson/Documents/MineCraft Mod Data/Forge 9.4/forge-1.9.4-12.17.0.1976-mdk/bin
+[13:55:24] [Client thread/INFO]: SoundSystem shutting down...
+[13:55:24] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:55:24] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:55:24] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[13:55:24] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:55:24] [Thread-7/INFO]: OpenAL initialized.
+[13:55:25] [Sound Library Loader/INFO]: Sound engine started
+[13:55:30] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[13:55:34] [Client thread/ERROR]: ########## GL ERROR ##########
+[13:55:34] [Client thread/ERROR]: @ Post startup
+[13:55:34] [Client thread/ERROR]: 1281: Invalid value
+[13:55:37] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:56:13] [Server thread/INFO]: Starting integrated minecraft server version 1.9.4
+[13:56:13] [Server thread/INFO]: Generating keypair
+[13:56:17] [Server thread/INFO]: Preparing start region for level 0
+[13:56:18] [Server thread/INFO]: Preparing spawn area: 1%
+[13:56:19] [Server thread/INFO]: Preparing spawn area: 5%
+[13:56:20] [Server thread/INFO]: Preparing spawn area: 7%
+[13:56:21] [Server thread/INFO]: Preparing spawn area: 8%
+[13:56:22] [Server thread/INFO]: Preparing spawn area: 10%
+[13:56:23] [Server thread/INFO]: Preparing spawn area: 11%
+[13:56:24] [Server thread/INFO]: Preparing spawn area: 14%
+[13:56:25] [Server thread/INFO]: Preparing spawn area: 17%
+[13:56:26] [Server thread/INFO]: Preparing spawn area: 21%
+[13:56:27] [Server thread/INFO]: Preparing spawn area: 24%
+[13:56:28] [Server thread/INFO]: Preparing spawn area: 28%
+[13:56:29] [Server thread/INFO]: Preparing spawn area: 30%
+[13:56:31] [Server thread/INFO]: Preparing spawn area: 34%
+[13:56:32] [Server thread/INFO]: Preparing spawn area: 36%
+[13:56:33] [Server thread/INFO]: Preparing spawn area: 40%
+[13:56:34] [Server thread/INFO]: Preparing spawn area: 45%
+[13:56:35] [Server thread/INFO]: Preparing spawn area: 47%
+[13:56:36] [Server thread/INFO]: Preparing spawn area: 50%
+[13:56:37] [Server thread/INFO]: Preparing spawn area: 54%
+[13:56:38] [Server thread/INFO]: Preparing spawn area: 57%
+[13:56:39] [Server thread/INFO]: Preparing spawn area: 61%
+[13:56:40] [Server thread/INFO]: Preparing spawn area: 64%
+[13:56:41] [Server thread/INFO]: Preparing spawn area: 68%
+[13:56:42] [Server thread/INFO]: Preparing spawn area: 72%
+[13:56:43] [Server thread/INFO]: Preparing spawn area: 75%
+[13:56:44] [Server thread/INFO]: Preparing spawn area: 78%
+[13:56:45] [Server thread/INFO]: Preparing spawn area: 82%
+[13:56:46] [Server thread/INFO]: Preparing spawn area: 84%
+[13:56:47] [Server thread/INFO]: Preparing spawn area: 88%
+[13:56:48] [Server thread/INFO]: Preparing spawn area: 92%
+[13:56:49] [Server thread/INFO]: Preparing spawn area: 97%
+[13:56:50] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:56:58] [Server thread/INFO]: Player748[local:E:851a179e] logged in with entity id 699 at (-173.5, 70.0, 233.5)
+[13:56:58] [Server thread/INFO]: Player748 joined the game
+[13:57:03] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@22be180c[id=05d2e66a-903f-3232-a8b0-3899ccc17800,name=Player748,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3043) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:131) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[13:57:23] [Client thread/INFO]: [CHAT] Usage: /give <player> <item> [amount] [data] [dataTag]
+[13:57:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 36888ms behind, skipping 737 tick(s)
+[13:57:41] [Client thread/INFO]: [CHAT] minecraft:ghast_tear, minecraft:book, minecraft:record_ward, minecraft:leather, minecraft:jungle_door, minecraft:cobblestone, minecraft:ender_chest, minecraft:nether_brick, minecraft:snow_layer, minecraft:spawn_egg, minecraft:iron_chestplate, minecraft:end_bricks, minecraft:chainmail_chestplate, minecraft:tnt, minecraft:sand, minecraft:diamond_pickaxe, minecraft:record_11, minecraft:snow, minecraft:birch_fence_gate, minecraft:fermented_spider_eye, minecraft:cooked_chicken, minecraft:minecart, minecraft:hardened_clay, minecraft:splash_potion, minecraft:bucket, minecraft:emerald, minecraft:leather_boots, minecraft:cobblestone_wall, minecraft:stained_glass, minecraft:stone_button, minecraft:iron_ingot, minecraft:lingering_potion, minecraft:stone_slab, minecraft:stained_glass_pane, minecraft:clay, minecraft:rabbit, minecraft:activator_rail, minecraft:glass_bottle, minecraft:quartz_block, minecraft:redstone_lamp, minecraft:record_cat, minecraft:brown_mushroom_block, minecraft:clay_ball, minecraft:leather_helmet, minecraft:tallgrass, minecraft:record_far, minecraft:repeater, minecraft:ice, minecraft:nether_star, minecraft:brick_block, minecraft:dispenser, minecraft:record_wait, minecraft:flower_pot, minecraft:emerald_block, minecraft:golden_carrot, minecraft:red_flower, minecraft:beef, minecraft:firework_charge, minecraft:sugar, minecraft:stone, minecraft:soul_sand, minecraft:fireworks, minecraft:glass_pane, minecraft:mycelium, minecraft:bookshelf, minecraft:chicken, minecraft:light_weighted_pressure_plate, minecraft:end_crystal, minecraft:diamond_leggings, minecraft:iron_door, minecraft:tipped_arrow, minecraft:golden_horse_armor, minecraft:stained_hardened_clay, minecraft:purpur_slab, minecraft:quartz, minecraft:bedrock, minecraft:baked_potato, minecraft:brick, minecraft:diamond_boots, minecraft:ender_eye, minecraft:iron_boots, minecraft:writable_book, minecraft:dark_oak_boat, minecraft:cooked_fish, minecraft:fence_gate, minecraft:gold_ore, minecraft:flint, minecraft:iron_horse_armor, minecraft:rail, minecraft:diamond_shovel, minecraft:hay_block, minecraft:comparator, minecraft:hopper, minecraft:torch, minecraft:diamond_hoe, minecraft:farmland, minecraft:banner, minecraft:command_block_minecart, minecraft:mutton, minecraft:carrot, minecraft:slime, minecraft:string, minecraft:spruce_boat, minecraft:wooden_axe, minecraft:netherbrick, minecraft:enchanting_table, minecraft:gold_ingot, minecraft:dropper, minecraft:potato, minecraft:melon_seeds, minecraft:coal, minecraft:nether_wart, minecraft:painting, minecraft:bread, minecraft:dark_oak_door, minecraft:fishing_rod, minecraft:chest_minecart, minecraft:blaze_powder, minecraft:chainmail_boots, minecraft:pumpkin_pie, minecraft:prismarine, minecraft:rotten_flesh, minecraft:enchanted_book, minecraft:cake, minecraft:iron_bars, minecraft:lapis_block, minecraft:cookie, minecraft:cooked_mutton, minecraft:cactus, minecraft:wool, minecraft:spruce_door, minecraft:rabbit_foot, minecraft:command_block, minecraft:end_stone, minecraft:golden_boots, minecraft:sapling, minecraft:compass, minecraft:cooked_rabbit, minecraft:purpur_pillar, minecraft:log, minecraft:record_13, minecraft:leather_chestplate, minecraft:acacia_boat, minecraft:milk_bucket, minecraft:record_stal, minecraft:saddle, minecraft:lava_bucket, minecraft:water_bucket, minecraft:log2, minecraft:grass_path, minecraft:quartz_stairs, minecraft:stonebrick, minecraft:potion, minecraft:red_mushroom, minecraft:redstone, minecraft:diamond_block, minecraft:iron_block, minecraft:golden_leggings, minecraft:jungle_stairs, minecraft:item_frame, minecraft:diamond_ore, minecraft:spectral_arrow, minecraft:reeds, minecraft:jungle_fence_gate, minecraft:acacia_fence_gate, minecraft:experience_bottle, minecraft:coal_ore, minecraft:wooden_shovel, minecraft:spruce_stairs, minecraft:waterlily, minecraft:piston, minecraft:bow, minecraft:quartz_ore, minecraft:iron_hoe, minecraft:vine, minecraft:chorus_flower, minecraft:diamond_helmet, minecraft:chorus_fruit_popped, minecraft:furnace, minecraft:snowball, minecraft:daylight_detector, minecraft:stone_pressure_plate, minecraft:gravel, minecraft:acacia_door, minecraft:beetroot_seeds, minecraft:lit_pumpkin, minecraft:barrier, minecraft:tnt_minecart, minecraft:spruce_fence_gate, minecraft:birch_boat, minecraft:jungle_fence, minecraft:wooden_pressure_plate, minecraft:rabbit_stew, minecraft:map, minecraft:filled_map, minecraft:fish, minecraft:golden_chestplate, minecraft:cooked_porkchop, minecraft:bowl, minecraft:detector_rail, minecraft:stone_slab2, minecraft:netherrack, minecraft:wooden_sword, minecraft:gunpowder, minecraft:brown_mushroom, minecraft:redstone_torch, minecraft:spider_eye, minecraft:golden_shovel, minecraft:sandstone_stairs, minecraft:red_sandstone, minecraft:beacon, minecraft:diamond_axe, minecraft:stone_pickaxe, minecraft:grass, minecraft:glowstone, minecraft:deadbush, minecraft:brick_stairs, minecraft:arrow, minecraft:red_mushroom_block, minecraft:shield, minecraft:golden_rail, minecraft:anvil, minecraft:iron_leggings, minecraft:acacia_fence, minecraft:jukebox, minecraft:spruce_fence, minecraft:birch_door, minecraft:gold_nugget, minecraft:acacia_stairs, minecraft:record_blocks, minecraft:melon, minecraft:obsidian, minecraft:iron_shovel, minecraft:coal_block, minecraft:armor_stand, minecraft:gold_block, minecraft:feather, minecraft:monster_egg, minecraft:record_mellohi, minecraft:mob_spawner, minecraft:magma_cream, minecraft:boat, minecraft:wooden_slab, minecraft:iron_ore, minecraft:dark_oak_fence_gate, minecraft:jungle_boat, minecraft:ender_pearl, minecraft:beetroot, minecraft:stone_brick_stairs, minecraft:redstone_block, minecraft:wooden_door, minecraft:oak_stairs, minecraft:yellow_flower, minecraft:rabbit_hide, minecraft:heavy_weighted_pressure_plate, minecraft:written_book, minecraft:apple, minecraft:speckled_melon, minecraft:brewing_stand, minecraft:mossy_cobblestone, minecraft:sticky_piston, minecraft:record_strad, minecraft:nether_brick_stairs, minecraft:leaves2, minecraft:end_portal_frame, minecraft:trapdoor, minecraft:pumpkin_seeds, minecraft:red_sandstone_stairs, minecraft:diamond_horse_armor, minecraft:leaves, minecraft:sea_lantern, minecraft:chainmail_helmet, minecraft:diamond, minecraft:prismarine_shard, minecraft:golden_apple, minecraft:carrot_on_a_stick, minecraft:shears, minecraft:carpet, minecraft:skull, minecraft:stone_shovel, minecraft:dirt, minecraft:emerald_ore, minecraft:chorus_fruit, minecraft:planks, minecraft:trapped_chest, minecraft:egg, minecraft:record_mall, minecraft:cooked_beef, minecraft:elytra, minecraft:leather_leggings, minecraft:golden_pickaxe, minecraft:diamond_sword, minecraft:iron_sword, minecraft:chain_command_block, minecraft:sponge, minecraft:iron_axe, minecraft:dark_oak_stairs, minecraft:crafting_table, minecraft:clock, minecraft:nether_brick_fence, minecraft:iron_pickaxe, minecraft:blaze_rod, minecraft:golden_helmet, minecraft:birch_stairs, minecraft:sandstone, minecraft:dragon_egg, minecraft:furnace_minecart, minecraft:cauldron, minecraft:ladder, minecraft:fire_charge, minecraft:purpur_block, minecraft:lead, minecraft:golden_hoe, minecraft:stone_hoe, minecraft:noteblock, wilzacharsonmod:ItemCheese, minecraft:stone_sword, minecraft:bed, minecraft:packed_ice, minecraft:mushroom_stew, minecraft:dye, minecraft:glowstone_dust, minecraft:lapis_ore, minecraft:repeating_command_block, minecraft:iron_trapdoor, minecraft:chest, minecraft:iron_helmet, minecraft:stick, minecraft:chainmail_leggings, minecraft:poisonous_potato, minecraft:bone, minecraft:birch_fence, minecraft:hopper_minecart, minecraft:diamond_chestplate, minecraft:flint_and_steel, minecraft:wooden_hoe, minecraft:dragon_breath, minecraft:slime_ball, minecraft:wheat, minecraft:chorus_plant, minecraft:sign, minecraft:end_rod, minecraft:melon_block, minecraft:prismarine_crystals, minecraft:wooden_button, minecraft:lever, minecraft:paper, minecraft:redstone_ore, minecraft:record_chirp, minecraft:beetroot_soup, minecraft:stone_stairs, minecraft:wooden_pickaxe, minecraft:double_plant, minecraft:pumpkin, minecraft:wheat_seeds, minecraft:porkchop, minecraft:purpur_stairs, minecraft:glass, minecraft:fence, minecraft:dark_oak_fence, minecraft:tripwire_hook, minecraft:golden_axe, minecraft:web, minecraft:golden_sword, minecraft:stone_axe, minecraft:name_tag
+[13:57:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 17571ms behind, skipping 351 tick(s)
+[13:57:55] [Client thread/INFO]: [CHAT] minecraft:item_frame, wilzacharsonmod:ItemCheese
+[13:57:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13825ms behind, skipping 276 tick(s)
+[13:58:12] [Server thread/INFO]: [Player748: Given [item.cheese.name] * 1 to Player748]
+[13:58:12] [Client thread/INFO]: [CHAT] Given [item.cheese.name] * 1 to Player748
+[13:58:46] [Server thread/INFO]: Saving and pausing game...
+[13:58:46] [Server thread/INFO]: Saving chunks for level 'TestWorldCrative'/Overworld
+[13:58:48] [Server thread/INFO]: Saving chunks for level 'TestWorldCrative'/Nether
+[13:58:48] [Server thread/INFO]: Saving chunks for level 'TestWorldCrative'/The End
+[13:58:48] [Server thread/INFO]: Stopping server
+[13:58:48] [Server thread/INFO]: Saving players
+[13:58:48] [Server thread/INFO]: Saving worlds
+[13:58:48] [Server thread/INFO]: Saving chunks for level 'TestWorldCrative'/Overworld
+[13:58:48] [Server thread/INFO]: Saving chunks for level 'TestWorldCrative'/Nether
+[13:58:48] [Server thread/INFO]: Saving chunks for level 'TestWorldCrative'/The End
+[14:10:58] [Client thread/INFO]: Stopping!
+[14:10:58] [Client thread/INFO]: SoundSystem shutting down...
+[14:10:59] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

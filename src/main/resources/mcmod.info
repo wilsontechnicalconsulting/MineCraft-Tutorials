@@ -1,0 +1,15 @@
+[
+{
+  "modid": "wilzacharsonmod",
+  "name": "zachtutmod",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ExampleDude"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
